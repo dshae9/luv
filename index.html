@@ -18,17 +18,17 @@
     
     <div id="loveBox">
       
-      <form>
-        <label for="fname">Name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
+      <form name="myForm">
+    <input NAME="textBox" TYPE="text">
+    <input NAME="showOut" TYPE="button" VALUE=" Show Me... " 
+    onClick="showOutput(myForm.textBox.value)">
       </form>
       
-      <button onclick="document.getElementById("items").innerHTML(random_item(items))"> Get your Valentines
+      <button onclick="innerHTML(random_item(items))"> Get your Valentines
         
       </button>
       
-      <span id="items"> </span>
-      
+      <p id="items"> </p>
     </div>
 
     
