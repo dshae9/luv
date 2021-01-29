@@ -1,1 +1,1 @@
-var genner 
+var genner []
