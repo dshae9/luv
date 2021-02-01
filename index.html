@@ -7,10 +7,8 @@
 
     <title>Hello!</title>
     
-    <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css">
     
-    <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
   </head>  
   <body>
@@ -18,24 +16,21 @@
     
     <div id="loveBox">
       
-      <script> var items = ["You're cool" , "You're sweet" , "Be mine" , "All yours" , "Sweetheart"];
-      function random_item(items)
-      {
+      <script> 
+        var items = ["You're cool" , "You're sweet" , "Be mine" , "All yours" , "Sweetheart"];
+        function random_item(items)
+          {
+            document.getElementById("items").innerHTML = items);
   
-      document.getElementById("items").console.log(random_item(items));
-  
-      return items[Math.floor(Math.random()*items.length)];
-     
-      } </script>
+            return items[Math.floor(Math.random()*items.length)];
+          }
+      </script>
       
       <form name="myForm">
     <input name="textBox" type="text">
-    <input name="showOut" type="button" onclick="random_item(items)" value=" Get your Valentines"> 
+      <button onclick="random_item(items)"> Get your Valentines</button>
       </form>
       
-<!--       <button onclick="random_item(items)"> Get your Valentines
-        
-      </button> -->
       
       <p id="items"> </p>
     </div>
