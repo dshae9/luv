@@ -20,19 +20,19 @@
         var items = ["You're cool" , "You're sweet" , "Be mine" , "All yours" , "Sweetheart"];
         function random_item(items)
           {
-            document.getElementById("items").innerHTML = items);
-  
-            return items[Math.floor(Math.random()*items.length)];
+           return items[Math.floor(Math.random()*items.length)];
           }
+        document.getElementById("items").innerHTML = items;
       </script>
       
-      <form name="myForm">
-    <input name="textBox" type="text">
+     
       <button onclick="random_item(items)"> Get your Valentines</button>
-      </form>
+      
+      <div id = "items" >
+         
+      </div>
       
       
-      <p id="items"> </p>
     </div>
 
     
