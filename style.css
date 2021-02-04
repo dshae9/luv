@@ -5,13 +5,14 @@ body {
   margin: 2em;
   text-align: center;
   font-family: 'Shrikhand', cursive;
+  background-color: black;
 
   
 }
 
 h1 {
   font-style: italic;
-  color: #373fff;
+  color: red;
 }
 
 div{
@@ -28,6 +29,7 @@ button{
 p{
   font-family: 'Shrikhand', cursive;
   font-size: 50px;
+  color: pink;
 }
 
 h4{
