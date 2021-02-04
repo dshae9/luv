@@ -17,14 +17,15 @@
     <div id="loveBox">
       
       <script> 
-        
+         console.log(random_items(items))
         function random_item(items)
         
           {
             var items = ["You're cool" , "You're sweet" , "Be mine" , "All yours" , "Sweetheart"];
-           return items[Math.floor(Math.random()*items.length)];
+           // return items[Math.floor(Math.random()*items.length)];
           }
-        document.getElementById("items").innerHTML = items;
+        return items[Math.floor(Math.random()*items.length)];
+        // document.getElementById("items").innerHTML = items;
       </script>
       
      
