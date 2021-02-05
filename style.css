@@ -42,6 +42,6 @@ h4{
   font-family: 'Lily Script One', cursive;
 }
 
-#model { 
-  margin: 
+#lovebox{
+  z-index: 3;
 }
