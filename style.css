@@ -14,13 +14,7 @@ h1 {
   
 }
 
-/* div{
-  display: inline-block;
-} */
-
 button{
-/*   display: inline-block; */
-/*   padding: 10px, 20px; */
   width: 150px;
   background-color: purple;
   color: white;
@@ -38,3 +32,19 @@ h4{
   font-family: 'Lily Script One', cursive;
 }
 
+.container_row{
+  display: grid;
+}
+
+.layer1, .layer2{
+  grid-column: 1;
+  grid-row: 1;
+}
+.layer1{
+  z-index: 1;
+}
+
+#lovebox{
+  width: 30px;
+  height: 30px;
+}
