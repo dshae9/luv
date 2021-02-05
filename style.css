@@ -39,13 +39,13 @@ h4{
 }
 
 #lovebox{
-  z-index: 6;
+  position: relative;
+  z-index: 3;
+  display: inline-block;
 }
 
 #venus {
   position: absolute;
-  float: left;
-  clear: both; 
-  z-index: 0;
-  left: no-repeat;
+  z-index: -3;
+  
 }
