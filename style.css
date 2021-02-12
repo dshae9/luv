@@ -7,12 +7,12 @@ body {
   font-family: 'Shrikhand', cursive;
   cursor:url("http://www.rw-designer.com/cursor-extern.php?id=113686");
   background-image: url("https://cdn.glitch.com/1f3070a7-854a-4a63-ae46-bcf54d880bb9%2Fsagdig_opo0431b_web.jpg?v=1612945420919");
-  
+  background-color: black;
 }
 
 h1 {
   font-style: italic;
-  color: red;
+  color: pink;
   
 }
 
@@ -41,6 +41,7 @@ h4{
 .layer1, .layer2{
   grid-column: 1;
   grid-row: 1;
+  margin-top: 30px;
 }
 .layer1{
   z-index: 1;
@@ -51,6 +52,6 @@ h4{
   height: 30px;
 }
 img{
-  width:40%;
+  width:50%;
   
 }
