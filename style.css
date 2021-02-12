@@ -2,18 +2,20 @@
 
 body {
 
-  margin: 2em;
+  margin: auto;
   text-align: center;
   font-family: 'Shrikhand', cursive;
   cursor:url("http://www.rw-designer.com/cursor-extern.php?id=113686");
   background-image: url("https://cdn.glitch.com/1f3070a7-854a-4a63-ae46-bcf54d880bb9%2Fsagdig_opo0431b_web.jpg?v=1612945420919");
   background-color: black;
+  padding: 10px;
 }
 
 h1 {
   font-style: italic;
   color: pink;
   text-shadow: 2px 2px 4px #000000;
+  
   
 }
 
