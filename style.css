@@ -30,6 +30,10 @@ button:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
+#love{
+  width: 200px;
+}
+
 p{
   font-family: 'Shrikhand', cursive;
   font-size: 50px;
@@ -79,9 +83,7 @@ img{
   margin: 0px 40px 0px 40px;
   padding: 0px 50px 0px 50px;
 }
-audio{
-  display:;
-}
+
 a{
   color: white;
   text-decoration: none;
