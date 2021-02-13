@@ -1,7 +1,7 @@
 let btnRandom = document.querySelector('button');
 let result = document.querySelector('p');
 
-let list = ["You're cool" , "You're sweet" , "Be mine" , "All yours" , "Sweetheart"];
+let list = ["If it were possible to place you in my brain and let you roam around, in and out my thought waves, you would never have to ask, 'Why do you love me?' A Poem for Ann #2 -Pat Parker "  , "You're sweet" , "Be mine" , "All yours" , "Sweetheart"];
 
 
 function getRandomNumber(min, max){
