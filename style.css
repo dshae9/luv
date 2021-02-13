@@ -23,6 +23,7 @@ button{
   width: 150px;
   background-color: purple;
   color: white;
+  border-radius: 16px;
  
 }
 button:hover {
@@ -80,4 +81,8 @@ img{
 }
 audio{
   display:;
+}
+a{
+  color: white;
+  text-decoration: none;
 }
