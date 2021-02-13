@@ -1,7 +1,7 @@
 let btnRandom = document.querySelector('button');
 let result = document.querySelector('p');
 
-let list = ["If it were possible to place you in my brain and let you roam around, in and out my thought waves, you would never have to ask, 'Why do you love me?' A Poem for Ann #2 -Pat Parker "  , "You're sweet" , "Be mine" , "All yours" , "Sweetheart"];
+let list = ["If it were possible to place you in my brain and let you roam around, in and out my thought waves, you would never have to ask, 'Why do you love me?' A Poem for Ann #2 -Pat Parker "  , "'If I had a flower for every time I thought of you… I could walk through my garden forever.' -Alfred Tennyson" , "'I love you for all that you are, all that you have been and all that you will be.'" , "'All yours'" , "Sweetheart"];
 
 
 function getRandomNumber(min, max){
