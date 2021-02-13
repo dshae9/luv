@@ -68,4 +68,8 @@ img{
   height: auto;
   
 }
+#music{
+  display: block;
+  align-content: center;
+}
 
