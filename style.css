@@ -31,18 +31,22 @@ p{
   font-size: 50px;
   color: pink;
   text-shadow: 2px 2px 4px #000000;
-  margin: 20px;
-  padding: 20px;
+  margin: 40px;
+  padding: 50px;
   
 }
 
 h4{
   font-family: 'Lily Script One', cursive;
 }
+h5{
+  color: white;
+}
 
 .container_row{
   display: grid;
   width: auto;
+  align-content: center;
 }
 
 .layer1, .layer2{
