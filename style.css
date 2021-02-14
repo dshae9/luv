@@ -40,7 +40,7 @@ p{
   font-size: 50px;
   color: pink;
   text-shadow: 2px 2px 4px #000000;
-  margin: 40px;
+  margin: 20px 40px 40px 40px;
   padding: 50px;
   
 }
@@ -56,13 +56,13 @@ h5{
   display: grid;
   width: auto;
   align-content: center;
-  margin: 30px;
+/*   margin: 30px; */
 }
 
 .layer1, .layer2{
   grid-column: 1;
   grid-row: 1;
-
+  margin: auto;
 }
 .layer1{
   
@@ -70,22 +70,23 @@ h5{
 }
 .layer2{
   align-content: center;
+  position: relative;
 }
 
-#lovebox{
+/* #lovebox{
   width: 30px;
   height: 30px;
-}
+} */
 img{
-  width: 80%;
-  height: auto;
+  width: 700px;
+  
   
 }
 #music{
   display: block;
   align-content: center;
-  margin: 20px 40px 40px 40px;
-  padding: 50px;
+/*   margin: 20px 40px 40px 40px;
+  padding: 50px; */
 }
 
 a{
