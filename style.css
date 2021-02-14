@@ -94,13 +94,18 @@ img{
   width: 500px;
   position: absolute;
   top: 100px;
-  
+  right: 400px;
+  margin: auto;
   
 }
 #music{
   display: block;
   align-content: center;
   margin: auto;
+  z-index: 1;
+  position: absolute;
+  top: 600px;
+  right: 450px;
 }
 
 a{
