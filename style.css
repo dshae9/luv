@@ -9,14 +9,12 @@ body {
   background-repeat: none;
   background-color: black;
   padding: 10px;
-/*   width: 100vw;
-  height: 100vh; */
   
 }
 
 #wrapper{
   margin: auto;
-  content-alighn: center;
+  align-content: center;
   width: 100vw;
 }
 
@@ -24,8 +22,7 @@ h1 {
   font-style: italic;
   color: pink;
   text-shadow: 2px 2px 4px #000000;
-  
-  
+   
 }
 
 button{
@@ -74,7 +71,6 @@ h5{
 /*   margin: auto; */
 }
 .layer1{
-  
   z-index: 1;
 }
 .layer2{
@@ -102,18 +98,10 @@ img{
   align-content: center;
   z-index: 1;
   margin: auto;
-
 }
 
 a{
   color: white;
   text-decoration: none;
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  body {
-/*     background: #999; */
-    width: 100%;
-    margin: auto;
-    content-align: center;
-  }
-}
+
