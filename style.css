@@ -10,6 +10,10 @@ body {
   background-color: black;
   
 }
+/* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
 #wrapper{
   position: relative;
    overflow-x:hidden;
@@ -67,7 +71,10 @@ h5{
   margin-top: 30px;
 }
 .layer1{
-  
+  background-image: url("https://cdn.glitch.com/1f3070a7-854a-4a63-ae46-bcf54d880bb9%2FPT2-Venus-3DP-Anim.gif?v=1612944884034");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   z-index: 1;
 }
 
