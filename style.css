@@ -6,6 +6,7 @@ body {
   font-family: 'Shrikhand', cursive;
   cursor:url("http://www.rw-designer.com/cursor-extern.php?id=113686");
   background-image: url("https://cdn.glitch.com/1f3070a7-854a-4a63-ae46-bcf54d880bb9%2Fsagdig_opo0431b_web.jpg?v=1612945420919");
+  background-repeat: none;
   background-color: black;
   padding: 10px;
 /*   width: 100vw;
@@ -91,11 +92,10 @@ h5{
   
 }
 img{
-  width: 500px;
-  position: absolute;
-  top: 100px;
-  right: 400px;
-  margin: auto;
+  width: 400px;
+  height: auto;
+  margin: 0px;
+  padding: 10px;
   
 }
 #music{
