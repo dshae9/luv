@@ -98,11 +98,10 @@ img{
   
 }
 #music{
-/*   display: block; */
-/*   align-content: center;
-  margin-top: 300px; */
-  
-/*   z-index: 1; */
+  display: block;
+  align-content: center;
+  z-index: 1;
+  margin: auto;
 
 }
 
