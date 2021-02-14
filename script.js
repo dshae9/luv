@@ -19,7 +19,14 @@ btnRandom.addEventListener('click', () => {
 });
 
 
-
+// function myFunction() {
+//   var x = document.getElementById("music");
+//   if (x.style.display === "none") {
+//     x.style.display = "block";
+//   } else {
+//     x.style.display = "none";
+//   }
+// }
 
 
 
