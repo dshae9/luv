@@ -97,7 +97,7 @@ img{
   display: block;
   align-content: center;
   z-index: 1;
-  margin: auto;
+  margin: 40px;
 }
 
 a{
