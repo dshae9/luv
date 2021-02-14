@@ -65,7 +65,7 @@ h5{
   display: grid;
   width: auto;
   align-content: center;
-/*   margin: 30px; */
+  margin: 30px;
 }
 
 .layer1, .layer2{
@@ -86,12 +86,12 @@ h5{
 #lovebox{
   width: 300px;
   height: 250px;
-  margin: 30px;
+  margin: 0px 30px 30px 30px;
   padding: 10px;
   
 }
 img{
-  width: 400px;
+  width: 500px;
   height: auto;
   margin: 0px;
   padding: 10px;
@@ -101,10 +101,9 @@ img{
   display: block;
   align-content: center;
   margin: auto;
-  z-index: 1;
-  position: absolute;
-  top: 600px;
-  right: 490px;
+  
+/*   z-index: 1; */
+
 }
 
 a{
