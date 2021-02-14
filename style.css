@@ -97,6 +97,7 @@ img{
 }
 #music{ 
   align-content: center;
+  display: inline;
   z-index: 1;
   margin: auto;
   width: 200px;
